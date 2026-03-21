@@ -10,7 +10,8 @@ title = "Justin Dom"
 
 [params]
   fontsize = "1.2rem"
-  description = "Professional breaker of software, okay pianist"
+  avatarURL = "/images/profile.jpg"
+  description = "Professional software breaker, okay pianist"
   footer = "Justin Dom"
   metaKeywords = ["blog", "gokarna", "hugo", "justin dom", "justindom", "desktopdump", "juicestain productions"]
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
