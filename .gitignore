@@ -1,0 +1,5 @@
+public/
+resources/
+.hugo_build.lock
+# Local environment variables or development logs
+*.log
