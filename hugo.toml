@@ -9,17 +9,14 @@ theme = "gokarna"
 title = "Justin Dom"
 
 [params]
-  # dateFormat = "January 2, 2026"
   fontsize = "1.2rem"
-  description = "Hey there! I'm Justin"
+  description = "Professional breaker of software, okay pianist"
   footer = "Justin Dom"
-  metaKeywords = ["blog", "gokarna", "hugo"]
+  metaKeywords = ["blog", "gokarna", "hugo", "justin dom", "justindom", "desktopdump", "juicestain productions"]
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
   socialIcons = [
     {name = "github", url = "https://github.com/jaydom28"},
     {name = "linkedin", url = "https://linkedin.com/in/justin-d-b03724121"},
-    # {name = "twitch", url = "https://example.com"},
-    # {name = "email", url = "https://jaydom28@gmail.com"}
   ]
 
 [menu]
@@ -45,10 +42,13 @@ title = "Justin Dom"
     pre = "<span data-feather='book'></span>"
     # Relative URL slug (appended to baseURL)
     url = "/posts/"
-    weight = 2
+    weight = 3
 
   [[menu.main]]
     name = "Tags"
     url = "/tags/"
     pre = "<span data-feather='tag'></span>"
-    weight = 3
+    weight = 4
+
+[minify]
+  minifyOutput = true
