@@ -1,5 +1,5 @@
 ---
-date: 2026-03-22T03:59:22-04:00
+date: 2026-03-23T03:59:22-04:00
 description: "Automating all the things"
 # image: ""
 lastmod: 2026-03-23
