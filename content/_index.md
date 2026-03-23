@@ -1,12 +1,3 @@
----
-date: 2026-03-21T02:50:34-04:00
-# image: ""
-lastmod: 2026-03-21
-showTableOfContents: false
-title: "Justin Dom"
-type: "page"
----
-
 ## Work and Education
 
 I studied at [UMass Lowell](https://www.uml.edu/) and graduated with a Bachelor of Science in Computer Science and a minor in Physics. For required courses, we use C/C++ and MIPS Assembly and now I spend too much time wondering how things work under the hood.
@@ -29,10 +20,10 @@ I worked at [Snowdaes](https://www.snowdaes.com/) throughout high school and col
 
 I self-learned music theory when I was 14 using [this site](https://www.musictheory.net/lessons) and found out I really enjoyed it. For my 16th birthday party I got a **Casio CDP-120** keyboard and later on, one of my [videos](https://www.youtube.com/watch?v=zme49jD4XQI) went mini-viral!
 
-{{< figure src="2018-12-23_DSC_0470.JPG" title="" caption="A typical day out exploring the city, shot on my Nikon D3400" alt="" >}}
+{{< figure src="images/2018-12-23_DSC_0470.JPG" title="" caption="A typical day out exploring the city, shot on my Nikon D3400" alt="" >}}
 
 When in school, I also fell in love with photography and making short films (I really need to get back into it). I enjoy editing videos, creating VFX and my camera is a **Nikon D3400**.
 
-{{< figure src="2018-12-23_DSC_0467.JPG" title="" caption="I cannot walk by traintracks without taking a picture" alt="" >}}
+{{< figure src="images/2018-12-23_DSC_0467.JPG" title="" caption="I cannot walk by traintracks without taking a picture" alt="" >}}
 
 Growing up, I did gymnastics and would hang out and do parkour with friends. For events, I only did [floor](https://en.wikipedia.org/wiki/Floor_(gymnastics)).
