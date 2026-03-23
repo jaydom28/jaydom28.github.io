@@ -31,25 +31,17 @@ title = "Justin Dom"
 
   [[menu.main]]
     # Display name
-    name = "About"
-    pre = "<span data-feather='user'></span>"
-    # Relative URL slug (appended to baseURL)
-    url = "/pages/about"
-    weight = 2
-
-  [[menu.main]]
-    # Display name
     name = "Posts"
     pre = "<span data-feather='book'></span>"
     # Relative URL slug (appended to baseURL)
     url = "/posts/"
-    weight = 3
+    weight = 2
 
   [[menu.main]]
     name = "Tags"
     url = "/tags/"
     pre = "<span data-feather='tag'></span>"
-    weight = 4
+    weight = 3
 
 [minify]
   minifyOutput = true
