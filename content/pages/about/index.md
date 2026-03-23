@@ -9,11 +9,11 @@ type: "page"
 
 ## Work and Education
 
-I studied at [UMass Lowell](https://www.uml.edu/) and graduated with a Bachelor of Science in Computer Science and a minor in Physics. At UML everyone learns C/C++ and MIPS Assembly for the required courses and so I started off learning everything at a low-level and now I spend too much time wondering how things work under the hood.
+I studied at [UMass Lowell](https://www.uml.edu/) and graduated with a Bachelor of Science in Computer Science and a minor in Physics. For required courses, we use C/C++ and MIPS Assembly and now I spend too much time wondering how things work under the hood.
 
 ### Hewlett Packard Enterprise (HPE)
 
-I interned at [HPE](https://www.hpe.com/us/en/home.html) on the QA team while in college for a few years where I got to professionally break software for the first time. I self-learned [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) during this time and wrote my own automated testing framework from scratch. I taught fellow QA members to use the framework to replace their manual workflows with automation. At some point after graduation, I came back to HPE as a software engineer in systems under a different team where we utilized [devtest](https://en.wikipedia.org/wiki/Development_testing) practices such as automated regression testing to break their product faster and get it fixed. I also worked closely with the devops team and contributed to their internal framework to help automation and devops engineers.
+I interned at [HPE](https://www.hpe.com/us/en/home.html) on the QA team while in college for a few years where I got to professionally break software for the first time. I self-learned [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) during this time and wrote my own automated testing framework from scratch and taught my teammates to use it. At some point after graduation, I came back to HPE as a software engineer in systems under a different team where we utilized [devtest](https://en.wikipedia.org/wiki/Development_testing) practices and also worked closely with the devops team.
 
 ### Snowdaes
 
@@ -23,7 +23,7 @@ I worked at [Snowdaes](https://www.snowdaes.com/) throughout high school and col
 
 ### Learning Using Texts (Lutev3)
 
-[Lutev3](https://github.com/LuteOrg/lute-v3) is an open-source project that aims to teach languages using real-life texts and I contributed by adding parser support for Khmer (my heritage language) and Thai.
+[Lutev3](https://github.com/LuteOrg/lute-v3) is an open-source project that aims to teach languages using real-life texts. There was a community need for Thai which wasn't supported at the time and I helped out by adding parser support for Thai and Khmer (my heritage language).
 
 ## Hobbies
 

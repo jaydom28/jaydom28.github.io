@@ -1,0 +1,38 @@
+{{ $url := .Get "url" }}
+{{ $lang := .Get "lang" }}
+{{ $videoID := "" }}
+
+{{/* Extract Video ID from YouTube URL */}}
+{{ if (findRE "v=" $url) }}
+  {{ $videoID = index (split $url "v=") 1 | replaceRE "&.*" "" }}
+{{ else if (findRE "youtu.be/" $url) }}
+  {{ $videoID = index (split $url "youtu.be/") 1 | replaceRE "\\?.*" "" }}
+{{ end }}
+
+{{ $thumb := printf "https://img.youtube.com/vi/%s/maxresdefault.jpg" $videoID }}
+
+<div class="video-summary-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; margin: 2rem 0; border-top: 1px solid #eee; padding-top: 1.5rem;">
+    <div class="video-thumbnail" style="position: relative; line-height: 0;">
+        {{ if $lang }}
+            <span class="lang-badge" style="position: absolute; top: 10px; left: 10px; background: rgba(0,0,0,0.75); color: white; padding: 3px 10px; border-radius: 4px; font-size: 0.7rem; font-weight: bold; z-index: 10; text-transform: uppercase; letter-spacing: 0.05em; font-family: sans-serif;">
+                {{ $lang }}
+            </span>
+        {{ end }}
+        
+        <a href="{{ $url }}" target="_blank" rel="noopener" title="Watch on YouTube">
+            <img src="{{ $thumb }}" alt="YouTube Thumbnail" style="width: 100%; border-radius: 8px; display: block; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+        </a>
+    </div>
+    <div class="video-text" style="font-size: 0.95rem; line-height: 1.6;">
+        {{ .Inner | markdownify }}
+    </div>
+</div>
+
+<style>
+    @media (max-width: 600px) {
+        .video-summary-container {
+            grid-template-columns: 1fr !important;
+            gap: 15px;
+        }
+    }
+</style>
