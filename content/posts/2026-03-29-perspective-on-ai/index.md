@@ -1,10 +1,10 @@
 ---
-date: 2026-03-29T08:00:58-04:00
+date: 2026-03-28T12:00:00-05:00
 # description: ""
 # image: ""
 lastmod: 2026-03-28
 showTableOfContents: false
-# tags: ["",]
+tags: ["tech"]
 title: "Changing Perspective on AI"
 type: "post"
 ---
