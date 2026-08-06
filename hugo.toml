@@ -31,6 +31,14 @@ title = "Justin Dom"
 
   [[menu.main]]
     # Display name
+    name = "Khmer Wiki"
+    pre = "<span data-feather='book'></span>"
+    # Relative URL slug (appended to baseURL)
+    url = "/khmer-wiki/"
+    weight = 2
+
+  [[menu.main]]
+    # Display name
     name = "Posts"
     pre = "<span data-feather='book'></span>"
     # Relative URL slug (appended to baseURL)
