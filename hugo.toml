@@ -9,6 +9,9 @@ theme = "gokarna"
 title = "Justin Dom"
 
 [params]
+  customHeadHTML = '''
+    <link rel="stylesheet" href="/css/custom.css">
+  '''
   fontsize = "1.2rem"
   avatarURL = "/images/profile.jpg"
   description = "Professional software breaker, okay pianist"
@@ -50,6 +53,11 @@ title = "Justin Dom"
     url = "/tags/"
     pre = "<span data-feather='tag'></span>"
     weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [minify]
   minifyOutput = true

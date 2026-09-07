@@ -9,7 +9,7 @@ title: "Changing Perspective on AI"
 type: "post"
 ---
 
-I was late to hop on the AI bandwagon and at first I was generally uninterested in AI, I didn't dislike or have a position **against** it.
+I was pretty late to hop on the AI bandwagon. At first I was generally uninterested in AI, I didn't dislike or have a position **against** it.
 I mainly saw it as a gimmick and in terms of coding, my perspective was:
 
 > Coding with AI is bad, people should code themselves.
@@ -41,7 +41,7 @@ I still think everyone's life is better in the long run with shorter, single-pur
 When I see long PRs, I don't have fun, call me lazy.
 Here are some things I've seen in AI generated PRs that I was able to catch, but the AI seemingly couldn't.
 
-Imagine we have a function called `get_boxes` whose job is to return a list of boxes. We don't care how it happens, we just know we get some boxes and it has an `owner` field which is a string of the owner's name.
+The following is a pattern I was seeing in AI generated code. Imagine we have a function called `get_boxes` whose job is to return a list of boxes. We don't care how it happens, we just know we get some boxes and it has an `owner` field which is a string of the owner's name.
 
 ```python
 boxes: List[Box] = get_boxes() 
@@ -63,13 +63,12 @@ If you don't believe me, you can try it yourself:
 ```python
 >>> all([])
 True
->>>
 ```
 
-Here is another example of AI seemingly copying not-so-great code that I thought it should have caught:
+Here is another example of AI seemingly copying not-so-great code because it existed elsewhere in the codebase:
 
 ```python
-user_id = 42
+user_id = get_user_id()
 
 if user_id is 42:
     print("The number is 42")
@@ -79,9 +78,24 @@ else:
 
 In the above example, the code **technically** works, but it is not doing what the author thinks it does.
 The reason it technically works, is because of the way Python handles literal values and memory addresses.
-The variable `user_id` gets the same memory addresses as wherever the literal `42` is stored in memory because Python is clever like that.
-Because of this, the identity comparison does what the author expected value comparison to do.
+The variable `user_id` gets a value with the same memory address as wherever the literal `42` is stored in memory because Python is clever like that.
+Because of this, the identity comparison accidentally yields the expected result.
 The author then saw working code and PR'd it.
+
+```python {hl_lines=[8,10]}
+>>> def my_func():
+...     return 42
+...
+>>> def my_func2():
+...     return 512
+...
+>>> my_func() is 42
+True
+>>> my_func2() is 512
+False
+```
+
+BTW, this identity comparison only works for integers between 0-127. So imagine if a user had an ID higher than 127 (totally not gonna happen, right?)
 
 ## Takeaway
 

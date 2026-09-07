@@ -4,7 +4,8 @@ date: 2026-08-05T07:54:37-04:00
 lastmod: 2026-08-05
 showTableOfContents: false
 title: "Khmer Wiki"
-type: "page"
+layout: "list"
+# type: "page"
 ---
 
-Hello there!
+Hello there world! How are you! Man
