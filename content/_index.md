@@ -2,13 +2,13 @@
 
 I studied at [UMass Lowell](https://www.uml.edu/) and graduated with a Bachelor of Science in Computer Science and a minor in Physics. For required courses, we use C/C++ and MIPS Assembly and now I spend too much time wondering how things work under the hood.
 
-### Hewlett Packard Enterprise (HPE)
+### :gear: Systems Engineering
 
-I interned at [HPE](https://www.hpe.com/us/en/home.html) on the QA team while in college for a few years where I got to professionally break software for the first time. I self-learned [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) during this time and wrote my own automated testing framework from scratch and taught my teammates to use it. At some point after graduation, I came back to HPE as a software engineer in systems under a different team where we utilized [devtest](https://en.wikipedia.org/wiki/Development_testing) practices and also worked closely with the devops team.
+I interned for a QA team while in college for a few years where I got to professionally break software for the first time. I self-learned [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) during this time and wrote my own automated testing framework from scratch and taught my teammates to use it. After graduation I returned as a systems engineer under a different team where we utilized [devtest](https://en.wikipedia.org/wiki/Development_testing) practices and worked closely with the devops and dev teams.
 
-### Snowdaes
+### :bubble_tea: Bubble Tea
 
-I worked at [Snowdaes](https://www.snowdaes.com/) throughout high school and college. I made [bubble tea](https://en.wikipedia.org/wiki/Bubble_tea) and regularly took orders in Khmer and Spanish. My favorite bubble tea flavor is **taro**!
+I worked at bubble tea shop throughout high school and college. I made [bubble tea](https://en.wikipedia.org/wiki/Bubble_tea) and regularly took orders in Khmer and Spanish. My favorite bubble tea flavor is **taro**!
 
 ## Projects
 

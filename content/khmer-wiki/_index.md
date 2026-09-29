@@ -7,5 +7,3 @@ title: "Khmer Wiki"
 layout: "list"
 # type: "page"
 ---
-
-Hello there world! How are you! Man
