@@ -1,0 +1,39 @@
+/* 2. Define a "Larger" Khmer Font */
+@font-face {
+    font-family: "BigKhmer";
+    src: local("Leelawadee UI"), local("Khmer OS Content");
+    size-adjust: 125%; /* Khmer is often smaller, so we scale it 30% */
+}
+
+body {
+    /* "Comic Sans MS" is a classic, but "Ink Free" or "Segoe Print" 
+       are common system fonts that look more like a felt-tip pen. */
+    font-family: "Comic Sans MS", "BigChinese", "BigKhmer";
+}
+
+
+/* Pronouns: Dark Cyan */
+.pronoun { 
+    color: #24828F; 
+}
+
+/* Nouns: Solid Blue */
+.noun { 
+    color: #2b6cb0; 
+}
+
+/* Verbs: Action Red/Orange */
+.verb { 
+    color: #c53030; 
+    font-style: italic;
+}
+
+/* Objects: Purple family (Direct/Indirect) */
+.direct-obj { color: #805ad5; text-decoration: underline; }
+.indirect-obj { color: #9f7aea; }
+
+/* Modifiers: Green family (Adjectives/Adverbs) */
+.adjective { color: #2f855a; }
+.adverb { color: #38a169; }
+.preposition { color: #a34f17; }
+.conjunction { color: #21bc5a; }

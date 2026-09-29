@@ -1,0 +1,23 @@
+{{ define "main" }}
+  
+  <!-- 1. This grabs the title and any text you wrote inside _index.md -->
+  <h1>{{ .Title }}</h1>
+  <div>{{ .Content }}</div>
+
+  <!-- 2. This creates a bulleted list -->
+  <ul>
+    
+    <!-- 3. THE MAGIC LOOP: This tells Hugo to look at every page in the folder -->
+    {{ range .Pages }}
+      
+      <li>
+        <!-- This creates a clickable link to the page -->
+        <a href="{{ .Permalink }}">{{ .Title }}</a> 
+      </li>
+      
+    {{ end }}
+    <!-- End of the magic loop -->
+
+  </ul>
+
+{{ end }}
